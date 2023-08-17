@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "/Volumes/T7/Git/test-cc-main/.nuxt/types/nitro-imports"
+      ],
+      "#paths": [
+        "/Volumes/T7/Git/test-cc-main/node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
+      "~": [
+        "/Volumes/T7/Git/test-cc-main"
+      ],
+      "~/*": [
+        "/Volumes/T7/Git/test-cc-main/*"
+      ],
+      "@": [
+        "/Volumes/T7/Git/test-cc-main"
+      ],
+      "@/*": [
+        "/Volumes/T7/Git/test-cc-main/*"
+      ],
+      "~~": [
+        "/Volumes/T7/Git/test-cc-main"
+      ],
+      "~~/*": [
+        "/Volumes/T7/Git/test-cc-main/*"
+      ],
+      "@@": [
+        "/Volumes/T7/Git/test-cc-main"
+      ],
+      "@@/*": [
+        "/Volumes/T7/Git/test-cc-main/*"
+      ],
+      "assets": [
+        "/Volumes/T7/Git/test-cc-main/assets"
+      ],
+      "public": [
+        "/Volumes/T7/Git/test-cc-main/public"
+      ],
+      "public/*": [
+        "/Volumes/T7/Git/test-cc-main/public/*"
+      ]
+    }
+  },
+  "include": [
+    "/Volumes/T7/Git/test-cc-main/.nuxt/types/nitro-nuxt.d.ts",
+    "./types/nitro.d.ts",
+    "../**/*",
+    "../server/**/*"
+  ]
+}
